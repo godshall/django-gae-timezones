@@ -2,7 +2,7 @@ import re
 
 from datetime import datetime
 
-import pytz
+from pytz.gae import pytz
 
 from django import forms
 from django.conf import settings

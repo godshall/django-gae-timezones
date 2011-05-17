@@ -3,7 +3,7 @@ from django.db import models
 from django.db.models import signals
 from django.utils.encoding import smart_unicode, smart_str
 
-import pytz
+from pytz.gae import pytz
 
 from timezones import forms, zones
 from timezones.utils import coerce_timezone_value, validate_timezone_max_length

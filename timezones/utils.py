@@ -2,7 +2,7 @@ from django.conf import settings
 from django.core.exceptions import ValidationError
 from django.utils.encoding import smart_str
 
-import pytz
+from pytz.gae import pytz
 
 
 def localtime_for_timezone(value, timezone):

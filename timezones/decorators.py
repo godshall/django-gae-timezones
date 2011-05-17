@@ -1,7 +1,7 @@
 from django.conf import settings
 from django.utils.encoding import smart_str
 
-import pytz
+from pytz.gae import pytz
 
 
 

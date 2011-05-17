@@ -1,7 +1,7 @@
 from django import forms
 from django.conf import settings
 
-import pytz
+from pytz.gae import pytz
 
 from timezones import zones
 from timezones.utils import adjust_datetime_to_timezone, coerce_timezone_value
